@@ -1,0 +1,93 @@
+html
+{
+    border-style: solid;
+    border-width: 40px;
+    border-color: #000000;
+
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  border-bottom: 3px solid black;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+}
+body
+{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #ffffff;
+
+}
+h1 
+{
+  position: relative;
+  top: 18px;
+  left: 10px;
+  font-family: 'Bad Script';font-size: 22px;
+  font-size: 70px;
+  text-align: center;
+  color: #000000;
+}
+h2
+{
+     text-align: left;
+     font-size: 60px;
+     color: #f3d352;
+     padding-up: 30px;
+
+}
+h3
+{
+     text-align: left;
+     font-size: 40px;
+     color: #000000;
+}
+pre
+{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+}
+.rectangle {
+  height: 3px;
+  width: 1200px;
+  background-color: #f3d352;
+}
+.rectangle2 {
+  height: 3px;
+  width: 780px;
+  background-color: #f3d352;
+}
+.rectangle3 {
+  height: 3px;
+  width: 1344px;
+  background-color: #000000;
+}
+.column {
+  float: left;
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

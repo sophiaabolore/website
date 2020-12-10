@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<! -- link css sheet to this page -->
+   <link rel="stylesheet"
+    href="Login.css">
+<! -- set the view port to the width of the device -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<! -- Create the navigation bar -->
+<div class="topnav">
+  <a href="About.html">About</a> 
+  <a href="Upside.html">Home</a> 
+</div>
+
+</head>
+</head>
+<! -- Create the header -->
+<div class="header">
+     <h1> Welcome to Upside</h1>
+</div>
+<body>
+<! -- Create the sign in form -->
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Create Account</h1>
+			<span>or use your email for registration</span>
+                      <! -- Create three lines of input "Name", "Email" and "Password" -->
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+                         <a href="Checkin.html" class="button">Sign Up</a>
+		</form>
+	</div>
+<! -- Create the sign up form -->
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Sign in</h1>
+
+			<span>or use your account</span>
+                      <! -- Create two lines of input  "Email" and "Password" -->
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+                         <a href="Checkin.html" class="button">Sign In</a>
+		</form>
+	</div>
+<! -- Create slides that go over the forms -->
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To log into Upside please put in your email and password</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hey there!</h1>
+				<p>Sign up to begin using Upside</p>
+				<button class="ghost"  id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+//When the container button is clicked slide into the form.
+signUpButton.addEventListener('click', () => {
+	container.classList.add("right-panel-active");
+}
+);
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});
+</script>
+
+
+</body>
+</html>

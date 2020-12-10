@@ -1,0 +1,118 @@
+html
+{
+    border-style: solid;
+    border-width: 30px;
+    border-color: black;
+
+}
+.header
+{
+
+
+}
+h1
+{
+     text-align: center;
+     font-size: 120px;
+     color: #f3d352;
+
+}
+h2
+{
+     text-align: left;
+     font-size: 60px;
+     color: #f3d352;
+     padding-up: 30px;
+
+}
+h3
+{
+     text-align: center;
+     font-size: 40px;
+     color: #000000;
+}
+pre
+{
+     font-size: 20px;
+
+}
+pre2
+{
+     font-size: 30px;
+
+}
+pre1
+{
+     font-size: 20px;
+
+}
+.rectangle {
+  height: 3px;
+  width: 1364px;
+  background-color: #f3d352;
+}
+.rectangle2{
+  height: 3px;
+  width: 800px;
+  background-color: #f3d352;
+}
+.rectangle3{
+  height: 3px;
+  width: 800px;
+  background-color: #f3d352;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the top navigation bar */
+.navbar {
+  font-size: 40px;
+  overflow: hidden; /* Hide overflow */
+  background-color: #f3d352; /* white background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block */
+  color: black; /* Black text color */
+  text-align: center; /* Center the text */
+  padding-right: 50px;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #faf7a3 ; /* white background color */
+  color: black; /* Black text color */
+}
+body
+{
+
+
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column2 {
+  float: center;
+  padding-left: 800px;
+  width: 33.33333%;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}

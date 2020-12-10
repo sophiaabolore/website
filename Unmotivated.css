@@ -1,0 +1,385 @@
+/* Set the borders of the page*/
+html
+{
+    border-style: solid;
+    border-width: 60px;
+    border-color: #C08FB9;
+      background-image: url(https://www.pngitem.com/pimgs/m/16-164952_sky-line-point-pattern-transparent-cartoon-clouds-png.png);
+
+
+}
+
+
+/* Set the movements of the header*/
+header {
+  opacity: 0;
+  transition: opacity .5s .25s ease-out;
+}
+
+/* Set the opacity to 1 ro make the header visible*/
+header.is-visible {
+  opacity: 1;
+}
+/* Set the information of the header*/
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  font-family: 'Bad Script';font-size: 22px;
+  font-size: 70px;
+  text-align: center;
+  color: #000000;
+}
+/*Set the information of the second header*/
+h2{
+  font-size: 55px;
+  text-align: center;
+}
+text{ 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 150px;
+  font-family: 'Bad Script';font-size: 22px;
+  display: block;
+
+}
+.div2 {
+  margin: auto;
+  width: 700px;
+  height: 800px;  
+  padding: 50px;
+  border: 3px solid lightblue;
+}
+.div3 {
+  margin: auto;
+  width: 500px;
+  height: 400px;  
+  padding: 50px;
+  border: 3px solid lightblue;
+}
+/*Set the information of the body of the website*/
+body {
+  font-size: 20px;
+  background: ffffff;
+
+}
+
+
+h3
+{
+  text-align: center;
+  font-family: 'Bad Script';font-size: 40px;
+  color: #FF7BAC;
+  margin: 100px 0;
+}
+
+.box {
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 40px;
+  border: 3px ;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+
+.button {
+  font-size: 1em;
+  padding: 60px;
+  color: #FF7BAC;
+  border: 20px solid #FF7BAC;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #FF7BAC;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 90%;
+  height: 100%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: orange;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 90%;
+  height: 100%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.mySlides1, .mySlides2, .mySlides3{
+	display: none
+}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin:0 auto 25px;
+}
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: orange;
+  color: white;
+}
+}
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+ @-webkit-keyframes fade {
+ from {
+opacity: .4
+}
+to {
+	opacity: 1
+}
+}
+ @keyframes fade {
+ from {
+opacity: .4
+}
+to {
+	opacity: 1
+}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next, .text {
+	font-size: 11px
+}
+}
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: orange;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    font-family: 'Bad Script';
+    font-size: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* unvisited link */
+a:link {
+  color: #FF6F91;
+}
+
+/* visited link */
+a:visited {
+  color: #B39CD0;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFC75F;
+}
+
+
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 20px; 
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  border-bottom: 3px solid purple;
+  color: black;
+
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*Bottom navigation bar */
+/* Place the navbar at the bottom of the page, and make it stick */
+.bnavbar {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.bnavbar a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.bnavbar a:hover {
+  border-bottom: 3px solid purple;
+  color: black;
+}
+
+
+/* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+

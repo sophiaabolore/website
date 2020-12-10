@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<! -- and --> 
+<! -- Link the css document to this page --> 
+   <link rel="stylesheet"
+    href="UpsideCSS.css">
+<! -- set tne width of the viewport to the width of the device -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<! -- Create a navigation bar at the top of the page the a "Home", "About" and "Login" link—>
+
+
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">M e n u
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+        <a href="About.html">About</a> 
+        <a href="Login.html">Login</a>
+        <a href="Upside.html">Home</a> 
+    </div>
+  </div> 
+</div>
+
+</head>
+<! -- Create a header -->
+<div class="header">
+     <h1>Upside</h1>
+</div>
+
+<body>
+<! -- Create 3 uneven columns -->
+ <div class="row">
+<! -- Add Gifs into the left column—>
+  <div class="column left">
+     <img src="https://thumbs.gfycat.com/TenderRigidJerboa-max-1mb.gif" alt="This is my animated image" height="180" width="180">
+     <pre>
+
+
+
+
+    </pre>
+     <img src="https://78.media.tumblr.com/35ee379e27f696e685c04fbd4b7eac28/tumblr_p7gm1imAOw1v8uw5go1_1280.gif" height="180" width="180">
+     <pre>
+
+
+
+
+    </pre>
+     <img src="https://media2.giphy.com/media/42CdVn2iqYSFNS8Os3/source.gif" height="300" width="300">
+  </div>
+<! -- In the middle column add the slideshow -->
+  <div class="column middle">
+
+       <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1</div>
+  <img src="https://i.ibb.co/ZThY2yj/Screen-Shot-2020-01-02-at-11-13-56-AM.png"width:90%">
+
+  <div class="text">Log into your account</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2</div>
+  <img src="https://i.ibb.co/h8TcQnh/Screen-Shot-2020-01-02-at-11-05-19-AM.png" style="width:100%">
+  <div class="text">Tell us how you're feeling</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3</div>
+  <img src="https://i.ibb.co/LYFrt1N/Screen-Shot-2020-01-02-at-11-14-34-AM.png"width:70%">
+  <div class="text">Learn why you're feeling that way</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+//Go through all of "mySlides" 
+//while i is less than the total number of slides, increase the value of i by 1
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+// Make the slide with the index number of i visible 
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+//Change which dots changes colour based on the slide
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+// Change the slide ever 5000 iterations
+  setTimeout(showSlides, 5000); 
+}
+</script>
+
+  </div>
+<! -- Add subtext to the bottom of the slide show -->
+  <div class="column right">
+     <img src="https://media2.giphy.com/media/42CdVn2iqYSFNS8Os3/source.gif" height="300" width="300">
+
+     <img src="https://78.media.tumblr.com/35ee379e27f696e685c04fbd4b7eac28/tumblr_p7gm1imAOw1v8uw5go1_1280.gif" height="180" width="180">
+     <pre>
+
+
+
+
+    </pre>
+     <img src="https://thumbs.gfycat.com/TenderRigidJerboa-max-1mb.gif" alt="This is my animated image" height="180" width="180">
+
+  </div>
+</div>
+
+
+<script>
+/* Toggle between adding and removing the "responsive" class to the navbar when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+ </script>
+
+</body>
+<div class="bnavbar">
+  <a href="Community.html">Community</a>
+  <a href="FAQ.html">FAQ</a>
+  <a href="Guidelines.html">Guidelines</a>
+</div>
+</html> 
+
