@@ -1,32 +1,32 @@
 body{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Palatino', sans-serif;
 	background: #ffe6ee
 }
 p{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', sans-serif;
 }
 
 p1{
 	font-size: 20px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', sans-serif;
 }
 p2{
 	font-size: 20px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', sans-serif;
 	color: black;
 }
 a{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Palatino', sans-serif;
 	text-decoration: none;
 }
 h7{
 	font-size: 35px;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Palatino', sans-serif;
 	color: black
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Palatino', sans-serif;
 }
 
 
@@ -71,7 +71,7 @@ header{
 .scroll_down h4{
 	font-size: 12px;
 	color: #000;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -171,7 +171,7 @@ margin-left: -23px;
 .single_testimonial p{
 color: #404040;
 font-size: 18px;
-font-family: 'Dosis', sans-serif;
+font-family: 'Palatino', sans-serif;
 letter-spacing: 1px;
 padding-top: 110px;
 
@@ -180,7 +180,7 @@ padding-top: 110px;
 	color: #404040;
 	font-size: 14px;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Trebuchet MS', sans-serif;
 	letter-spacing: 1px
 }
 
@@ -205,14 +205,14 @@ padding-top: 120px;
 	font-size: 24px;
 }
 .single_count h3{
-font-family: 'Montserrat', sans-serif;
+font-family: 'Trebuchet MS', sans-serif;
 color: #fff;
 font-size: 40px;
 font-weight: bold;
 margin-bottom: 0px;	
 }
 .single_count p{
-font-family: 'Dosis', sans-serif;
+font-family: 'Palatino', sans-serif;
 color: #fff;
 font-size: 14px;
 text-transform: uppercase;
